@@ -1,0 +1,27 @@
+# Source files
+credentials/**/*.ts
+nodes/**/*.ts
+!nodes/**/*.svg
+
+# Config files
+.eslintrc.js
+.prettierrc
+tsconfig.json
+gulpfile.js
+
+# Development
+.github/
+.vscode/
+.idea/
+test/
+scripts/
+
+# Documentation (keep in repo, not in npm)
+# README.md - keep this one
+
+# Other
+*.log
+.DS_Store
+coverage/
+.nyc_output/
+*.tgz
